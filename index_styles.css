@@ -1,0 +1,196 @@
+body{
+    background-color: #242424;
+    margin: auto;
+}
+    
+.sticky-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #562f1b;
+    padding: 10px 0;
+    z-index: 999;
+}
+
+.sticky-header nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sticky-header nav ul li{
+    display: inline;
+    margin-right: 20px;
+  }
+
+.sticky-header nav ul li a{
+    text-decoration: none;
+    color: #fbfbfb;
+}
+
+.menu{
+    margin-top: 1.8%;
+    margin-right: 0%;
+}
+
+.modal{
+    border: 3px solid red;
+    margin-top: 10%;
+    height: 60%;
+    width: 30%;
+    border-left: 35%;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 2%;
+    display: none;
+}
+
+.lm-container1{
+    margin-left: 98%;
+    width: 10%;
+    margin-top: -3%;
+}
+
+.lm-container2{
+    width: 80%;
+    margin-top: -5%;
+}
+
+.logo{
+    width: 200px;
+    height: 155px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5%; 
+}
+
+#welcomeMessage{
+    width: 15%;
+    height: 35%;
+    /*background: blue;*/
+    display: none;
+    color: #fbfbfb; 
+    z-index: 1000;
+    margin-left: 85%;
+    margin-top: -8%;
+    padding-top: 1.5%;
+    overflow-wrap: break-word;
+} 
+
+
+.mySlides{
+    display: none;
+    width: 90%;
+    /*border: 2px solid red;*/
+}
+
+.borito-container{
+    /*border: 2px solid blue;*/
+    margin-top: 14%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade{
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.sz1{
+    color: white;
+    text-align: center;
+    font-size: 190%;
+    margin-bottom: -10px;
+}
+
+.liras1{
+    color: white;
+    /*border: 2px solid orange;*/
+    height: 50%;
+    width: 30%;
+    margin-left: 80%;
+    margin-bottom: -10%;
+    font-size: 110%;
+}
+
+.szallit{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    margin-top: 8%;
+    padding: 0%;
+    /*border: 2px solid red;*/
+}
+
+.pizza_teszt{
+    text-align: center;
+    /*border: 2px solid red;*/
+    margin-top: 8%;
+    margin-bottom: 15%;
+}
+
+.cim{
+    padding: 20px 0;
+    color: white;
+}
+
+.tesztak-container{
+    display: flex;
+    justify-content: center;
+}
+
+.kisblokk{
+    width: 380px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    border-radius: 7px;
+}
+
+#zöld{
+    background-color: #68B722;
+}
+
+#piros{
+    background-color: #DF1C11;
+}
+
+#lila{
+    background-color: #7D69CD;
+}
+.belsok{
+    margin: 2%;
+    color: white;
+    text-align: left;
+}
+
+.terkep{
+    width: 100%;
+    /*border: 2px solid red;*/
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.t_cim, .t_iframe{
+    display: block;
+    margin-bottom: 30px;
+}
+
+.t-container{
+    /*border: 2px solid blue;*/
+    background-color: whitesmoke;
+    width: 90%;
+    text-align: center;
+    border-radius: 12px;
+}
