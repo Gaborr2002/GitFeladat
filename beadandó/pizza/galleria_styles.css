@@ -1,0 +1,110 @@
+body{
+    background-color: #242424;
+    margin: auto;
+}
+    
+.sticky-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background-color: #562f1b;
+    padding: 10px 0;
+    z-index: 999;
+}
+
+.sticky-header nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sticky-header nav ul li{
+    display: inline;
+    margin-right: 20px;
+  }
+
+.sticky-header nav ul li a{
+    text-decoration: none;
+    color: #fbfbfb;
+}
+
+.menu{
+    margin-top: 1.8%;
+    margin-right: 0%;
+}
+
+.modal{
+    border: 3px solid red;
+    margin-top: 10%;
+    height: 60%;
+    width: 30%;
+    border-left: 35%;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 2%;
+    display: none;
+}
+
+.lm-container1{
+    margin-left: 98%;
+    width: 10%;
+    margin-top: -3%;
+}
+
+.lm-container2{
+    width: 80%;
+    margin-top: -5%;
+}
+
+.logo{
+    width: 200px;
+    height: 155px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5%; 
+}
+
+#welcomeMessage{
+    width: 15%;
+    height: 35%;
+    display: none;
+    color: #fbfbfb; 
+    z-index: 1000;
+    margin-left: 85%;
+    margin-top: -8%;
+    padding-top: 1.5%;
+    overflow-wrap: break-word;
+}
+
+
+.feltolt-conntener{  
+    margin-top: 8%; 
+    background-color: rgba(255, 255, 255, 0.6); 
+    width: 30%;
+    border-radius: 15px;
+    padding: 0% 0.5% 0.5% 0.5%;
+    border: 3px solid red;
+    display: none;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    /*border: 1px solid red;*/
+    justify-content:space-around;
+    margin-top: 5%;
+}
+
+.image-wrapper {
+    flex: 0 0 auto;
+    margin: 1%;
+    /*border: 1px solid blue;*/
+    max-width: 20%;
+}
+
+.image-wrapper img {
+    max-width: 100%;
+    /*border: 1px solid greenyellow;*/
+}

@@ -1,0 +1,55 @@
+<header class="sticky-header">
+    <nav class="menu">
+      <div style="margin-left: 1%;">
+        <ul>
+          <li><a href="#" id="loginLink">Bejelentkezés</a></li>
+          <li style="display: none;" id="logoutButton"><a href="#">Kijelentkezés</a></li>
+          <li><a href="etlap.php">Étlap</a></li>
+          <li><a href="galleria.php">Galéria</a></li>
+          <li><a href="kontakt.php">Kapcsolat </a></li>
+          <li><a href="uzenetek.php">Üzenetek</a></li>
+        </ul>
+      </div>
+    </nav>
+    <img src="pf_logo.png" alt="logo" class="logo">
+    <div id="welcomeMessage" class="welcomeMessage"></div>
+  </header>
+  
+  <div id="loginModal" class="modal"> 
+    <div class="lm-container1">
+      <input type="button" value="x" id="x">
+    </div>
+    <div class="lm-container2">
+      <h2>Bejelentkezés</h2>
+      <form action="belepes.php" method="post">
+        <label for="username">Felhasználónév:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Jelszó:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" onclick="mentes(event)" value="Belépés" id="belepes">
+        <input type="button" value="Regisztráció" id="regist">
+      </form>
+    </div>
+  </div>
+
+  <div id="registerModal" class="modal" style="display: none;">
+    <div class="lm-container1">
+      <input type="button" value="x" id="x2">
+    </div>
+    <div class="lm-container2">
+      <h2>Regisztráció</h2>
+      <form action="regisztracio.php" method="post">
+      <label for="firstname">Vezeték név:</label>
+      <input type="text" id="firstname" name="firstname"><br><br>
+      <label for="lastname">Kereszt név:</label>
+      <input type="text" id="lastname" name="lastname"><br><br>
+      <label for="nickname">Felhasználó név:</label>
+      <input type="text" id="nickname" name="nickname"><br><br>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email"><br><br>
+      <label for="password">Jelszó:</label>
+      <input type="password" id="password" name="password"><br><br>
+      <input type="submit" value="Regisztráció" id="registration">
+      </form>
+    </div>
+  </div>
